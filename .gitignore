@@ -2,3 +2,23 @@ node_modules/
 .next/
 dist/
 .wrangler/
+
+# Local site-builder scaffold; GitHub Pages serves the static files at root.
+.openai/
+app/
+db/
+drizzle/
+examples/
+public/
+tests/
+worker/
+README.md
+drizzle.config.ts
+eslint.config.mjs
+next-env.d.ts
+next.config.ts
+package-lock.json
+package.json
+postcss.config.mjs
+tsconfig.json
+vite.config.ts
