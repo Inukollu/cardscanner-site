@@ -3,6 +3,9 @@ node_modules/
 dist/
 .wrangler/
 
+# Local tooling config; Pages serves this repo's root, so keep it unpublished.
+.mcp.json
+
 # Local site-builder scaffold; GitHub Pages serves the static files at root.
 .openai/
 app/
